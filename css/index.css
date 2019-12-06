@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+ /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -65,11 +65,62 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
-
 .container {
     width: 800px;
     margin: 0 auto;
 }
+
+/*<------------navigation ----------------->*/
+
+.navigation {
+    width: 100%;
+    height: 10vh;
+    padding-top: 3%;
+    margin:3%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-direction: row;
+}
+
+.list {
+    width: 100%;
+    text-align: center;
+    
+}
+
+.list a {
+    margin: 0% 6% 0% 6%;
+    font-size: 1em;
+    opacity: 0.6; 
+     filter: alpha(opacity = 60);
+     cursor: pointer;
+     text-decoration: none;
+     color: black;
+}
+
+.logo {
+    /*padding-right: 13%;*/
+}
+
+
+/*--------------end of navigation-------------------------------*/
+
+/*--------------across the screen image-------------------------------*/
+
+.img {
+    display: flex;
+    justify-content: center;
+    margin: 3% 0% 3% 0%;
+}
+.top-img {
+    min-width: 85%;
+    height: auto;
+}
+
+/*--------------across the screen image-------------------------------*/
+
 
 .top-content {
     display: flex;
