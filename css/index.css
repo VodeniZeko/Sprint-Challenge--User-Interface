@@ -76,7 +76,6 @@ p {
     width: 100%;
     height: 10vh;
     padding-top: 3%;
-    margin:3%;
     text-align: center;
     display: flex;
     justify-content: space-between;
@@ -98,6 +97,7 @@ p {
      cursor: pointer;
      text-decoration: none;
      color: black;
+     line-height: 
 }
 
 .logo {
@@ -109,12 +109,12 @@ p {
 
 /*--------------across the screen image-------------------------------*/
 
-.img {
+.img,{
     display: flex;
     justify-content: center;
     margin: 3% 0% 3% 0%;
 }
-.top-img {
+.top {
     min-width: 85%;
     height: auto;
 }
@@ -194,4 +194,28 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/*<----------------about page--------------------->*/
+
+hr {
+    border-top:1px dotted #000;
+}
+
+.about-text {
+    margin:2%;
+}
+
+.inner-content {
+    width: 48%;
+    margin: 3% auto;
+}
+
+button {
+    border-radius: 9px;
+    font-size: 1em;
+    padding: 7px 20px 7px 20px;
+    border: 2px solid black;
+    margin: 4% auto;
 }
