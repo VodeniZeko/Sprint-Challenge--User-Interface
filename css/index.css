@@ -60,6 +60,7 @@ h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    margin-top: 15px;
 }
 
 p {
@@ -109,7 +110,7 @@ p {
 
 /*--------------across the screen image-------------------------------*/
 
-.img,{
+.img{
     display: flex;
     justify-content: center;
     margin: 3% 0% 3% 0%;
@@ -155,9 +156,9 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
+    background: gray;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -203,8 +204,15 @@ hr {
     border-top:1px dotted #000;
 }
 
+.top-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
 .about-text {
-    margin:2%;
+padding: 0% 0% 2% 2%;
 }
 
 .inner-content {
@@ -212,10 +220,200 @@ hr {
     margin: 3% auto;
 }
 
+.last-inner-content-about {
+    padding-bottom: 3%;
+}
+
+/*<----------------buttons------------------------->*/
 button {
     border-radius: 9px;
     font-size: 1em;
     padding: 7px 20px 7px 20px;
     border: 2px solid black;
     margin: 4% auto;
+    transition:ease-in-out 0.35s;
+    cursor: pointer;
+}
+
+
+    button:hover,
+    button:focus {
+      transform: translateY(-0.15em);
+      transition:ease-in-out 0.25s;
+      color: #696969;
+      -webkit-box-shadow: -2px 16px 11px -11px #696969;
+      -moz-box-shadow: -2px 16px 11px -11px #696969;
+      box-shadow: -2px 16px 11px -11px #696969;
+    }
+/*<----------------Box colors-------------------------->*/
+
+#teal{
+  animation:pulseT 3s infinite;
+}
+
+@keyframes pulseT {
+  0% {
+    background-color: teal;
+  }
+
+  30% {
+    background-color: #000;
+  }
+  100% {
+    background-color: teal;
+  }
+}
+
+#gold{
+  animation:pulsG 3s infinite;
+}
+
+@keyframes pulsG {
+  0% {
+    background-color: gold;
+  }
+
+  30% {
+    background-color: #000;
+  }
+  100% {
+    background-color: gold;
+  }
+}
+
+#coral{
+  animation:pulseCO 3s infinite;
+}
+
+@keyframes pulseCO {
+  0% {
+    background-color: coral;
+  }
+
+  30% {
+    background-color: #000;
+  }
+  100% {
+    background-color: coral;
+  }
+}
+
+#cadetblue{
+  animation:pulseCA 3s infinite;
+}
+
+@keyframes pulseCA {
+  0% {
+    background-color: cadetblue;
+  }
+
+  30% {
+    background-color: #000;
+  }
+  100% {
+    background-color: cadetblue;
+  }
+}
+
+#crimson{
+  animation:pulseC 3s infinite;
+}
+
+@keyframes pulseC {
+  0% {
+    background-color: crimson;
+  }
+
+  30% {
+    background-color: #000;
+  }
+  100% {
+    background-color: crimson;
+  }
+}
+
+
+#forestgreen{
+  animation:pulseF 3s infinite;
+}
+
+@keyframes pulseF {
+  0% {
+    background-color: forestgreen;
+  }
+
+  30% {
+    background-color: #000;
+  }
+  100% {
+    background-color: forestgreen;
+  }
+}
+
+#darkorchid{
+  animation:pulseDA 3s infinite;
+}
+
+@keyframes pulseDA {
+  0% {
+    background-color: darkorchid;
+  }
+
+  30% {
+    background-color: #000;
+  }
+  100% {
+    background-color: darkorchid;
+  }
+}
+
+#hotpink{
+  animation:pulseH 3s infinite;
+}
+
+@keyframes pulseH {
+  0% {
+    background-color: hotpink;
+  }
+
+  30% {
+    background-color: #000;
+  }
+  100% {
+    background-color: hotpink;
+  }
+}
+
+#indigo{
+  animation:pulseI 3s infinite;
+}
+
+@keyframes pulseI {
+  0% {
+    background-color: indigo;
+  }
+
+  30% {
+    background-color: #000;
+  }
+  100% {
+    background-color: indigo;
+  }
+}
+
+#dodgerblue{
+  animation:pulseD 3s infinite;
+}
+
+@keyframes pulseD {
+  0% {
+    background-color: dodgerblue;
+  }
+
+  30% {
+    background-color: #000;
+  }
+  100% {
+    background-color: dodgerblue;
+  }
 }
